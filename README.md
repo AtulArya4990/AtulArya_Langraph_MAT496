@@ -34,7 +34,19 @@ Lesson 4(Chain):A chain is like a fixed recipe where I combine different AI tool
      <img width="1442" height="738" alt="image" src="https://github.com/user-attachments/assets/a13646a7-c5ac-4fbc-9f5c-89302f796c43" />
 
 
- Lesson 5(Router):    
+ Lesson 5(Router): A router is like a smart traffic signal for ai which decides which path to take. When I ask a question, the router checks if it needs to use              special tools or can answer directly. If my question needs calculations or specific tools, it routes to the tool path. If it's a general question, it               answers directly without using any tools. This helps the ai be more efficient by only using tools when really necessary.   
+           <img width="200" height="420" alt="image" src="https://github.com/user-attachments/assets/4f0b978f-6ac7-48e6-a56f-a1af7e944130" />
+       Tweaking: In this lesson i designed my own divide function:
+                    <img width="1006" height="547" alt="image" src="https://github.com/user-attachments/assets/3069ff3a-be52-4e58-96ad-84c9a785d292" />
+                 i was successfull in making this work after hours of work and my divide function was ready:
+                    <img width="976" height="511" alt="image" src="https://github.com/user-attachments/assets/826c1db5-b366-44ab-8754-0392f2ff2aaa" />
+                 I successfully tested the router graph with this new tool and was able to run it on localhost. The router correctly identified when to use the                       divide tool for math questions and when to answer directly for general questions, showing the graph working properly in the studio interface. 
+                    <img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/815c8734-e7b4-4a11-869c-0d6ed077c758" />
+
+
+               
+
+        
 
 
 
