@@ -53,6 +53,16 @@ Lesson 4(Chain):A chain is like a fixed recipe where I combine different AI tool
 
 
 
+   Lesson 7(Agent and Memory): An agent with memory is like a smart friend who acn remember our past conversation. It can look back at what we talked about earlier                                  and use that information to answer new questions better. This memory helps the agent understand context and have deeper, more                                       connected convesations. Instead of starting fresh each time, it builds on our previous chats to give more helpful and acurate                                       responses, just like a real conversation with someone who pays attention. 
+                                 <img width="1425" height="416" alt="image" src="https://github.com/user-attachments/assets/ec679387-9bfd-4eee-b2d0-b87fccdca52c" />
+          Tweaking: Here using the multiplications, additions and divisions i used to create some example on these operations, I gave it a very tricky question                         using these operations and the agent successfully solved it without using any tools, showing it can handle calculations on its own. It                              demonstrated clear reasoning by breaking down the problem step by step before providing the final answer. The memory system properly tracked                        the entire conversation in the thread with accurate timestamps.
+                      <img width="1900" height="935" alt="image" src="https://github.com/user-attachments/assets/af171490-2014-46dc-9ea8-12f18b6c4c36" />
+                      <img width="1905" height="875" alt="image" src="https://github.com/user-attachments/assets/bc3a3c3d-2e85-421a-a47a-1a63322074de" />
+
+
+
+
+
 
 
 
