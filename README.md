@@ -44,6 +44,9 @@ Lesson 4(Chain):A chain is like a fixed recipe where I combine different AI tool
                     <img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/815c8734-e7b4-4a11-869c-0d6ed077c758" />
 
 
+  Lesson 6(Agent):                  
+
+
                
 
         
