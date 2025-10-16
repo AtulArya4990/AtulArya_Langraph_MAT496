@@ -44,7 +44,17 @@ Lesson 4(Chain):A chain is like a fixed recipe where I combine different AI tool
                     <img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/815c8734-e7b4-4a11-869c-0d6ed077c758" />
 
 
-  Lesson 6(Agent):                  
+  Lesson 6(Agent): An agent is like a smart asistant that can think and act step by step. It follows a pattern called ReAct where it first thinks about what to                        do, then uses tools to take action, and finally looks at a results to decide what to do next. Unlike a simple router that makes one decision,                       an agent can keep using tools multiple times until it finds the right solution. It keps going back and forth betwen thinking and acting until                       the problem is completely solved. This makes it much smrter and more capable than basic AI systems. 
+                    <img width="1385" height="642" alt="image" src="https://github.com/user-attachments/assets/c85a5801-7c18-40d8-b77a-bee6cc571ad3" />
+         Tweaking: I created three new square functions (square0, square1, and square2) that each add different numbers to the sum of squares. Instead of using                        cube functions, I built these custom tools and bound them to the agent. When I tested with "squared 4.5 is", the agent successfully used one of                     my square functions and returned the calculated result, showing the agent properly selecting and executing from multiple available tools.
+                     <img width="846" height="752" alt="image" src="https://github.com/user-attachments/assets/46fa6ef0-e527-4de4-a115-970a4b56a145" />
+                     <img width="1030" height="746" alt="image" src="https://github.com/user-attachments/assets/1a033acc-8fcb-4f6a-b588-8e743d6ac48e" />
+                     <img width="1897" height="935" alt="image" src="https://github.com/user-attachments/assets/2602029b-0252-4a0c-aac5-9b50d402e241" />
+
+
+
+
+
 
 
                
