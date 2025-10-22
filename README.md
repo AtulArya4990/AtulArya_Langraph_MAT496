@@ -62,6 +62,16 @@ Lesson 4(Chain):A chain is like a fixed recipe where I combine different AI tool
 
 
 
+MODULE 2 (State and Memory):
+
+  Lesson 1(State Schema): This notebook is like learning different ways to organize information for a school project.
+      It shows three methods:
+      TypedDict - like making a simple list with categories
+      Dataclass - like creating a more organized form with sections
+      The mai difference between TypeDict and Dataclas is that we use "state.name" for dataclass and state["name"] for typedict for accessing the values.
+      Pydantic - like having a teacher check your work to make sure everything is correct
+      The notebook builds a small program which takes a name, adds some text, and randomly decides if the mood is happy or sad - showing how each method keeps             track of this information differently.
+      Tweaking: After experimenting with the state schema implementation, I customized the PydanticState class by changing the mood options from the original              "happy/sad" to "excited/tired" to better reflect different energy states. I also modified the probability logic in the decide_mood() function to create an           80/20 split favoring excitement over tiredness. Additionally, I enhanced the state schema by introducing new fields including an "energy_level" integer to          track vitality and a "message" string to store dynamic responses, making the graph's behavior more interactive and personalized.
 
 
 
