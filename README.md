@@ -76,15 +76,16 @@ MODULE 2 (State and Memory):
 
 
 
-   Lesson 2(State Reducers): When we build graphs where multiple parts run at the same time, this might try to change the same information, which causes problem.           State reducers are like rules that tell our program how they will combine these changes properly, like adding to a list instead of just overwriting. We can         use simple built-in reducers or create our own custom ones for special situations. Custom reducers are great because they let me handle tricky situations,          like when data is empty or needs a special way to be combined This is especially useful when working with chat messages where we need          to add,              update, or remove messages without causing conflicts.
+   Lesson 2(State Reducers): When we build graphs where multiple parts run at the same time, this might try to change the same information, which causes problem.           State reducers are like rules that tell our program how they will combine these changes properly, like adding to a list instead of just overwriting. We can         use simple built-in reducers or create our own custom ones for special situations. Custom reducers are great because they let me handle tricky situations,          like when data is empty or needs a special way to be combined This is especially useful when working with chat messages where we need to add,                       update, or remove messages without causing conflicts.
 
    Tweaking: I started with a game scoring system which was giving errors when trying to add bonus points and subtract penalty points at the same time. The program        did not know which calculation to do first. So I created a special subtraction rule called a reducer that properly handles score that changes. Then I made          it even smarter to work even when starting without any score. When I tested it with an empty score and added 15 points, it correctly gave me a final score          of 15 points without any errors.
 
 
 
 
-
-               
+   Lesson 3(Multiple schemas): This lesson explains how to build workflows using LangGraph with different types of data schemas. It shows that normally all parts          of a workflow share one data structure, but sometimes we want more control. The notebook teaches two main tricks: using private data that only some steps           can see, and creating separate input/output formats to control what information goes in and comes out of the workflow. These techniques help organize               complex programs better by hiding unnecessary details and focusing on what's important.
+   
+   Tweakink: I changed the addition example to subtraction to make it more interesting and i was enjoying doing this. Instead of just adding numbers, the code i           wrote  will now subtract values and will even prevent negative results. I used different variable names like "final_result" and "starting_number" to make it        clearer what's happening. The workflow still follows the same steps but now does subtraction calculations instead. When I tested it with the number 25, it          gave me 12 as the final answer, and when I used 5, it gave me 0 since it doesn't allow negative numbers.Here, I tested with both the methods, private data          as well as with creating separate i/o formats.            
 
         
 
