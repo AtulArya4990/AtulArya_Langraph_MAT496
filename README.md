@@ -101,3 +101,27 @@ MODULE 2 (State and Memory):
 
    Tweaking: I changed the example from American football to Indian cricket to make it more relatable. Instead of someone named Lance talking about the 49ers, I         used Atul discussing the Indian cricket team. The chatbot remembered Atul's name and his favorite players like Virat Kohli and Rohit Sharma. When i asked          about the 2011 World Cup, it correctly said India won under Dhoni's captaincy. The summaries it created captured all the cricket discussions perfectly, and        I also tested multiple chat threads to show how different people can have separate conversations that the bot remembers individually using the memory              feature.
        <img width="1432" height="810" alt="image" src="https://github.com/user-attachments/assets/3514d0d2-187b-453d-a61b-51b26d21df17" />
+
+
+
+
+   Lesson 6(Summarizing Messages and External Memory): This lesson shows how to build a chatbot that can remember past conversations by saving them to a database.     In this they used SQLite to store chat history so the chatbot can recall previous talks even when we close the program. The chatbot can also summarize long        conversations to save space. The notebook walks through creating the chatbot, connecting it to the database, and testing how it remembers information across       multiple chat sessions. Finally, it shows how to view the saved chat history using a tool called LangGraph Studio.
+     <img width="1902" height="908" alt="image" src="https://github.com/user-attachments/assets/1a30ee91-35af-46b0-9ff7-92c40efc100a" />
+     <img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/45be733e-dd4c-44a1-9632-02ab66655a90" />
+    As i entered more than the required messages the earlier meassages were deleted and it gave me a summary of the entire conversation we had.
+      <img width="1890" height="839" alt="image" src="https://github.com/user-attachments/assets/568c31ae-e996-49c8-a6e4-dd1f11603ffd" />
+
+
+   Tweakings: I changed the names in the chatbot from Lance to Hunar and Aryan, and switched the sports team from 49ers to Barcelona football club. The chatbot        now remembers conversations about soccer instead of American football. I tested it by having Hunar introduce himself, mention his friend Aryan loves               Barcelona, and then ask about Barcelona's best players. The chatbot successfully remembered all the details across different messages and gave proper              responses about Barcelona players like Messi and their history, showing the memory feature works well with the new examples.  
+      <img width="1644" height="871" alt="image" src="https://github.com/user-attachments/assets/ecb140df-47f0-485f-88fe-e081f1ce282e" />
+    At the end it gave me the summary of the four questions i asket to it.
+      <img width="1686" height="879" alt="image" src="https://github.com/user-attachments/assets/33576530-6660-4fbd-9957-28bb8e0addc4" />
+
+
+
+
+
+
+
+
+
