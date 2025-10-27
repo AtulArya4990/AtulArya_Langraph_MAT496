@@ -124,4 +124,23 @@ MODULE 2 (State and Memory):
 
 
 
+MODULE-3(UX and Human in the loop):
+
+  Lesson 1(streaming):This lesson is all about learning how to stream data from a LangGraph chatbot. Streaming lets us see the output as it's being generated,          instead of waiting for the whole thing to finish.First, it shows how to stream the entire state of the graph after each step, so you can watch the                 conversation build. Then, it dives into streaming just the individual words or "tokens" from the AI's response as they are created, which makes the chat feel      much more live and interactive.Finally, the notebook introduces the LangGraph API, which offers even more ways to stream data, like a special "messages" mode      that's really handy for tracking the flow of a conversation. The main goal is to show different methods for making the chatbot's responses appear in real-time.
+     <img width="1293" height="930" alt="image" src="https://github.com/user-attachments/assets/be48871f-5bce-44ea-bbad-65f0d749918c" />
+
+  Tweakings:I changed the examples from multiplication to addition to make it simpler. Instead of asking about multiplying numbers like 2×3, I used basic addition    problems like 5+7 and 10+15. The code structure stayed the same, but I just swapped the math operations in the questions we ask the chatbot.When I ran the         code, the chatbot successfully answered all the addition problems. For "Add 5 and 7" it correctly said 12, and for "What is 10 plus 15?" it gave the right         answer of 25. The streaming worked perfectly, showing each part of the answer as it was being generated, which made the conversation feel quick and natural.   
+    <img width="1710" height="825" alt="image" src="https://github.com/user-attachments/assets/7ad824e4-03bd-4c14-924b-837b71b376ea" />
+
+
+  Lesson 2(Breakpoints): This Lesson teaches how to use breakpoints to let a human control an AI agent. You can pause the AI right before it takes an action,          like using a calculator. This lets a person review and approve the action before it happens. The code shows how to set this up so the AI asks for permission.      You can then type "yes" to continue or "no" to stop it. It also explains how to use this feature with an online tool called LangGraph Studio. This is useful       for debugging or when you want to supervise the AI's decisions.
+
+
+
+
+
+
+
+
+
 
