@@ -141,6 +141,20 @@ MODULE-3(UX and Human in the loop):
 
 
 
+Lesson 3(Editing state and human feedback): This Lesson shows how to let humans edit and give feedback to an AI while it's working. It teaches how to pause the AI    at specific points and change what it's doing. For example, if you tell the AI to multiply 2 and 3, you can pause it and change the numbers to 3 and 3 instead.    The code shows how to update the AI's memory with new instructions and then let it continue working. It also explains how to add special feedback nodes where      humans can step in and guide the AI. This makes the AI more flexible and allows people to correct it or give new directions as it works.
+    <img width="1840" height="984" alt="image" src="https://github.com/user-attachments/assets/eb3a55b1-2a40-463f-ab48-5d047dbd5f37" />
+    <img width="1460" height="857" alt="image" src="https://github.com/user-attachments/assets/b89eae9c-e5e6-45a5-a40a-227233035b10" />
+    <img width="1536" height="855" alt="image" src="https://github.com/user-attachments/assets/987a76ff-0f1e-4e99-a491-7f3fd7be05b5" />
+
+Tweaking:I changed the example from multiplication to addition and subtraction. I created two new tools - one for adding numbers and one for subtracting numbers.    When I ran the code, I first asked the AI to add 2 and 3. Then I paused it and changed the instruction to add 3 and 3 instead. The AI correctly used the           addition tool and gave me the answer 6. The system worked perfectly by letting me change the numbers mid-process and getting the right result.
+   <img width="1415" height="794" alt="image" src="https://github.com/user-attachments/assets/10f06e93-1828-4314-9e36-bf096b3bca7f" />
+   <img width="1430" height="389" alt="image" src="https://github.com/user-attachments/assets/66519989-2fdd-4131-855b-f3b31277371b" />
+   <img width="1751" height="908" alt="image" src="https://github.com/user-attachments/assets/50eea611-a84e-4080-8e01-afedfa895f33" />
+
+
+ 
+
+
 
 
 
