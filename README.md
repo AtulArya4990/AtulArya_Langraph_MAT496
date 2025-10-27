@@ -134,6 +134,11 @@ MODULE-3(UX and Human in the loop):
 
 
   Lesson 2(Breakpoints): This Lesson teaches how to use breakpoints to let a human control an AI agent. You can pause the AI right before it takes an action,          like using a calculator. This lets a person review and approve the action before it happens. The code shows how to set this up so the AI asks for permission.      You can then type "yes" to continue or "no" to stop it. It also explains how to use this feature with an online tool called LangGraph Studio. This is useful       for debugging or when you want to supervise the AI's decisions.
+     <img width="1625" height="858" alt="image" src="https://github.com/user-attachments/assets/588b9ce9-c1dc-47a0-8f03-91785ead8b95" />
+
+
+ Tweaking: I changed the example from simple multiplication to calculating rectangle area and perimeter. I created two new tools - one for area and one for            perimeter calculation. The main tweak was adding proper docstrings to both functions because the code was giving an error without them. When I ran it, the AI      correctly identified it needed to use the area tool with length 5 and width 3. After I typed "yes" to approve, it calculated and showed the answer as 15,          which    is the correct area of the rectangle.
+
 
 
 
