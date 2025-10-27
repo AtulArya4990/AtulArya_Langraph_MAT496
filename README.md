@@ -161,6 +161,16 @@ Tweaking: I changed the example from checking text length to looking for greetin
     <img width="1447" height="755" alt="image" src="https://github.com/user-attachments/assets/0279da5f-e82f-47f5-8ada-4448b609bd26" />
 
 
+
+
+Lesson 5(Time Travel):This Lesson is about "time travel" in LangGraph, which means we can go back to any previous step in our program and see what happened. We      can look at the history of how our program ran and even replay it from any point.The example shows a math assistant that can multiply numbers. First, we ask it    to multiply 2 and 3, and it correctly gives us 6. Then we learn how to view all the steps it took to get that answer.The cool part is we can go back to any step   and run the program again from there. We can even change the input at that step - like changing "Multiply 2 and 3" to "Multiply 5 and 3" - and see a different     result. This is called forking, where we create a new path from any point in the program's history.This feature is really helpful for debugging when something     goes wrong, or when we want to try different inputs without starting over completely.
+   <img width="1793" height="937" alt="image" src="https://github.com/user-attachments/assets/60319f41-949f-472b-9517-9f2057d34ce0" />
+
+Tweaking: I changed the math example from multiplication to addition. I fixed the error by adding proper docstrings to each function that explain what they do.      The program now has tools for adding, subtracting, and multiplying numbers. When I ran it with "Add 2 and 3", it correctly gave me 5 as the answer. Then I used    time travel to go back and change the input to "Add 3 and 3", and it successfully calculated 6. The program worked perfectly both times without any errors.
+   <img width="1858" height="886" alt="image" src="https://github.com/user-attachments/assets/8b9bb8a6-ed66-4588-bf2a-8674b992dec7" />
+
+
+
  
 
 
