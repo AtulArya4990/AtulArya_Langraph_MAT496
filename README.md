@@ -152,6 +152,15 @@ Tweaking:I changed the example from multiplication to addition and subtraction. 
    <img width="1751" height="908" alt="image" src="https://github.com/user-attachments/assets/50eea611-a84e-4080-8e01-afedfa895f33" />
 
 
+
+Lesson 4(Dynamic breakpoints): This Lesson is about using "dynamic breakpoints" in LangGraph, which lets a program pause itself automatically based on certain        conditions. For example, the code stops if an input text is longer than 5 characters. When this happens, a person can check the program's state and change the     input to something shorter, like from "hello world" to "hi". After updating the input, the program can resume and finish its job. This is a useful way to          control how a program runs and fix issues as they happen.
+     here we reached at step 4
+    <img width="1464" height="799" alt="image" src="https://github.com/user-attachments/assets/ebdc1e4a-e849-44a0-8b7c-d1d2d6c6930d" />
+
+Tweaking: I changed the example from checking text length to looking for greeting words in a message. Now the program checks if words like "hello" or "hi" are       present in the input. If no greeting is found, it stops and asks the user to add one. When I tested it with "can you help me with this", the program paused        because it couldn't find any greeting words. Then I could update the message to include "hello" and the program would continue running smoothly to generate a      response.  
+    <img width="1447" height="755" alt="image" src="https://github.com/user-attachments/assets/0279da5f-e82f-47f5-8ada-4448b609bd26" />
+
+
  
 
 
