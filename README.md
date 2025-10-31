@@ -177,26 +177,47 @@ Tweaking: I changed the math example from multiplication to addition. I fixed th
 
 MODULE 4(Building your Assistant)  
 
-   Lesson 1(Parallelization): This Lesson teaches you how to make computer programs run faster by doing multiple tasks at the same time, a concept called               "parallelization." It starts with simple examples, showing how you can split work between different points (like A, B, and C) instead of doing them one             after another. It also explains how to handle the results when these tasks finish at different times and how to keep everything organized.Finally, it shows        a real-world example where the program simultaneously searches Wikipedia and the web to find information and then uses an AI to write a clear answer to a          question, like finding out how a company's earnings performed. The notebook also includes a guide on how to run and test this kind of program on your own          computer using a tool called LangSmith Studio. after the parallelization i asked this question and this was its reply:
+   Lesson 1(Parallelization): This Lesson teaches you how to make computer programs run faster by doing multiple tasks at the same time, a concept called               "parallelization." It starts with simple exampls, showing how you can split work between different points (like A, B, and C) instead of doing them one              after another. It also explains how to handle the results when these tasks finish at different times and how to keep everything organized.Finally, it shows        a real-world example where the program simultaneously searches Wikipdia and the web to find information and then uses an AI to write a clear answer to a           question, like finding out how a company's earnings performed. The notebook also includes a guide on how to run and test this kind of program on your own          computer using a tool called LangSmith Studio. after the parallelization i asked this question and this was its reply:
        <img width="1433" height="182" alt="image" src="https://github.com/user-attachments/assets/75a337b6-f9a6-4bbc-aaca-1dd0c8cfd66a" />
        <img width="1901" height="928" alt="image" src="https://github.com/user-attachments/assets/e5d69003-2e77-4369-982f-10817190d4cc" />
        <img width="1878" height="933" alt="image" src="https://github.com/user-attachments/assets/e517c327-327e-44b5-8453-d74bb6ad9e0c" />
 
 
-   Tweaking: I changed the example from searching about company earnings to finding out who leads the Indian cricket team. Instead of doing tasks one after              another, I made the program run three searches at the same time - one on the web, one on Wikipedia, and one in a sports database. Then it combines all that        information in a final step to write the answer. The program follows these steps: first it starts, then it does the initial search, then three searches            happen together, and finally it gives you the result. When I ran it, the output showed all the search steps adding their results, and at the end it printed        the final answer about the cricket captain.
+   Tweaking: I changed the example from searching about company earnings to finding out who leads the Indian cricket team. Instead of doing tasks one after              another, I made the program run three searches at the same time - one on the web, one on Wikipdia, and one in a sports database. Then it combines all that         information in a final step to write the answer. The program follows these steps: first it starts, then it does the initial search, then three searches            happen together, and finally it gives you the result. When I ran it, the output showed all the search steps adding their results, and at the end it printed        the final answer about the cricket captain.
        <img width="1888" height="969" alt="image" src="https://github.com/user-attachments/assets/0d9341c9-6b18-4d47-8eaa-6ca8cb366c0a" />
        <img width="1420" height="765" alt="image" src="https://github.com/user-attachments/assets/7d6b55ee-df97-4284-9e12-982dfff4cedf" />
 
 
 
-   Lesson 2(Sub-groups): This Lesson is about using LangGraph to build a multi-agent system that analyzes logs. It shows how to create smaller "sub-graphs" that       handle different tasks - one summarizes questions from logs and another analyzes failures. These sub-graphs work separately but can share information with         the main system. The notebook includes code examples and diagrams to explain how everything connects. It also shows how to test the system with sample log         data and view the results using LangSmith for tracking what happens.
+   Lesson 2(Sub-groups): This Lesson is about using LangGraph to build a multi-agent system that analyzes logs. It shows how to create smaller "sub-graphs" that       handle different tasks - one summarizes questions from logs and another analyzes failures. These sub-graphs work separately but can share information with         the main system. The notebook includes code examples and diagrms to explain how everything connects. It also shows how to test the system with sample log          data and view the results using LangSmith for tracking what happens.
     Tracing of sub graph:
      <img width="1915" height="945" alt="image" src="https://github.com/user-attachments/assets/b7fb0c62-8fdc-4a28-ada1-8458db9c496e" />
      <img width="1876" height="954" alt="image" src="https://github.com/user-attachments/assets/5aaca059-390f-48a5-b936-047ba953daee" />
 
-   Tweaking: I changed the code from analyzing logs to checking customer support tickets instead. Now it looks at how happy customers are and how good the support      responses are. The system finds unhappy customers and checks if support agents are giving good answers. When I ran it with two sample tickets, it found one        unhappy customer and said the quality check was done. The output showed both reports were ready and told us which tickets got analyzed. This is what i             changed other than the given code:
+   Tweaking: I changed the code from analyzing logs to checking customer support tickets instead. Now it looks at how happy customers are and how good the support      responses are. The system finds unhappy custmers and checks if support agents are giving good answers. When I ran it with two sample tickets, it found one         unhappy customer and said the quality check was done. The output showed both reports were ready and told us which tickets got analyzed. This is what i             changed other than the given code:
       <img width="1442" height="662" alt="image" src="https://github.com/user-attachments/assets/22885178-25b9-40b4-b4a4-8fb86c1c9b35" />
       <img width="1912" height="966" alt="image" src="https://github.com/user-attachments/assets/2966c051-6745-4fb7-8a87-c4b6fbe15283" />
+
+
+
+    
+
+  Lesson 3(Map Reduce): This lesson teaches us how to build a program that generates jokes using a "map-reduce" method. First, the program takes a big topic and      breaks it down into smaller sub-topics, like splitting "animals" into "mammals" and "birds." This is the "map" step as it is dividing and now these small parts    will run parallel. Then, it creates a joke for each of these smaller topics all at the same time, which is efficient. Finally, in the "reduce" step, it looks      at all the jokes it made and picks the single best one. We build this step-by-step using a tool called LangGraph, which lets us connect different tasks like a     flowchart. The lesson also shows us how to run the final program and test it ourselves in a special interface to see the jokes it creates.
+    <img width="1907" height="963" alt="image" src="https://github.com/user-attachments/assets/4d74b2e0-aaa8-4872-82a4-c42737e59440" />
+    <img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/fa77d496-f85f-40c4-b490-c4b114e1915d" />
+    <img width="1894" height="975" alt="image" src="https://github.com/user-attachments/assets/7cd66896-1b69-4164-9d55-dc6a061c905a" />
+    <img width="1908" height="982" alt="image" src="https://github.com/user-attachments/assets/23b4683f-0b58-4cde-9587-1fc322e10347" />
+    <img width="1906" height="968" alt="image" src="https://github.com/user-attachments/assets/67e4c1fb-bc28-40ab-bdeb-215418f80f96" />
+    <img width="1904" height="975" alt="image" src="https://github.com/user-attachments/assets/c2f8807f-f22f-4c60-a444-fe64bdca6418" />
+   I interrupted before generate joke and it showed this:
+    <img width="1884" height="963" alt="image" src="https://github.com/user-attachments/assets/b35f202c-5669-47f8-82da-c4eba30a34f7" />
+
+
+   Tweaking: I changed the joke generator into a science fact finder. Instead of making jokes about animals, it now finds cool science facts about space. The          program first breaks "space" into smaller topics like planets and stars. Then it finds one interesting fact for each topic. Finlly, it picks the most              surprising fact from all of them. When I ran it, I got facts about black holes, Mars, and the Sun, and it selected the fact about black holes having such          strong gravity that not even light can escape as the most surprising one.
+    Here is the example of "space" that i took instead of "joke":
+     <img width="1901" height="1034" alt="image" src="https://github.com/user-attachments/assets/d42dcec2-2f03-400a-aada-c48f1c81fc55" />
+    This was the ouput of the space topic that i made in the studio section of the langsmith:
+     <img width="1907" height="972" alt="image" src="https://github.com/user-attachments/assets/45ca3021-eb45-4b3b-b8bc-9e05cf70896c" />
 
 
 
