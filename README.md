@@ -222,8 +222,7 @@ MODULE 4(Building your Assistant)
 
 
 
-
-
+  Lesson 4(Research Assistant): This Lesson teaches us how to build a smart research assistant using a tool called LangGraph and we will use everything covered till now to make this assistant. It works by creating a team of AI "analysts" who research a topic for us. First, we tell it what we want to research. Then, it automatically creates different analyst characters, like a technology expert or a business person. We get to review and change these analysts before the research starts.Next, each analyst interviews an "expert" AI. This expert answers questions by searching the web and Wikipedia for real information. All these interviews happen at the same time to save time. Finally, the system takes all the gathered facts and conversations and combines them into a neat, well-written report for us. The notebook provides all the code needed to build this entire system, from creating the analysts to generating the final report.
 
 
 
