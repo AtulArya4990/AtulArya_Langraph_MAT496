@@ -189,7 +189,18 @@ MODULE 4(Building your Assistant)
 
 
 
-   Lesson 2(Sub-groups): 
+   Lesson 2(Sub-groups): This Lesson is about using LangGraph to build a multi-agent system that analyzes logs. It shows how to create smaller "sub-graphs" that       handle different tasks - one summarizes questions from logs and another analyzes failures. These sub-graphs work separately but can share information with         the main system. The notebook includes code examples and diagrams to explain how everything connects. It also shows how to test the system with sample log         data and view the results using LangSmith for tracking what happens.
+    Tracing of sub graph:
+     <img width="1915" height="945" alt="image" src="https://github.com/user-attachments/assets/b7fb0c62-8fdc-4a28-ada1-8458db9c496e" />
+     <img width="1876" height="954" alt="image" src="https://github.com/user-attachments/assets/5aaca059-390f-48a5-b936-047ba953daee" />
+
+   Tweaking: I changed the code from analyzing logs to checking customer support tickets instead. Now it looks at how happy customers are and how good the support      responses are. The system finds unhappy customers and checks if support agents are giving good answers. When I ran it with two sample tickets, it found one        unhappy customer and said the quality check was done. The output showed both reports were ready and told us which tickets got analyzed. This is what i             changed other than the given code:
+      <img width="1442" height="662" alt="image" src="https://github.com/user-attachments/assets/22885178-25b9-40b4-b4a4-8fb86c1c9b35" />
+      <img width="1912" height="966" alt="image" src="https://github.com/user-attachments/assets/2966c051-6745-4fb7-8a87-c4b6fbe15283" />
+
+
+
+
 
 
 
