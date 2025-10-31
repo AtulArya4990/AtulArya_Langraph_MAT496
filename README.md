@@ -171,6 +171,54 @@ Tweaking: I changed the math example from multiplication to addition. I fixed th
 
 
 
+
+
+
+
+MODULE 4(Building your Assistant)  
+
+   Lesson 1(Parallelization): This Lesson teaches you how to make computer programs run faster by doing multiple tasks at the same time, a concept called               "parallelization." It starts with simple examples, showing how you can split work between different points (like A, B, and C) instead of doing them one             after another. It also explains how to handle the results when these tasks finish at different times and how to keep everything organized.Finally, it shows        a real-world example where the program simultaneously searches Wikipedia and the web to find information and then uses an AI to write a clear answer to a          question, like finding out how a company's earnings performed. The notebook also includes a guide on how to run and test this kind of program on your own          computer using a tool called LangSmith Studio. after the parallelization i asked this question and this was its reply:
+       <img width="1433" height="182" alt="image" src="https://github.com/user-attachments/assets/75a337b6-f9a6-4bbc-aaca-1dd0c8cfd66a" />
+       <img width="1901" height="928" alt="image" src="https://github.com/user-attachments/assets/e5d69003-2e77-4369-982f-10817190d4cc" />
+       <img width="1878" height="933" alt="image" src="https://github.com/user-attachments/assets/e517c327-327e-44b5-8453-d74bb6ad9e0c" />
+
+
+   Tweaking: I changed the example from searching about company earnings to finding out who leads the Indian cricket team. Instead of doing tasks one after              another, I made the program run three searches at the same time - one on the web, one on Wikipedia, and one in a sports database. Then it combines all that        information in a final step to write the answer. The program follows these steps: first it starts, then it does the initial search, then three searches            happen together, and finally it gives you the result. When I ran it, the output showed all the search steps adding their results, and at the end it printed        the final answer about the cricket captain.
+       <img width="1888" height="969" alt="image" src="https://github.com/user-attachments/assets/0d9341c9-6b18-4d47-8eaa-6ca8cb366c0a" />
+       <img width="1420" height="765" alt="image" src="https://github.com/user-attachments/assets/7d6b55ee-df97-4284-9e12-982dfff4cedf" />
+
+
+
+   Lesson 2(Sub-groups): 
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
  
 
 
