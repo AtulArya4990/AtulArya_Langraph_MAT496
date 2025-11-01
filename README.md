@@ -222,7 +222,26 @@ MODULE 4(Building your Assistant)
 
 
 
-  Lesson 4(Research Assistant): This Lesson teaches us how to build a smart research assistant using a tool called LangGraph and we will use everything covered till now to make this assistant. It works by creating a team of AI "analysts" who research a topic for us. First, we tell it what we want to research. Then, it automatically creates different analyst characters, like a technology expert or a business person. We get to review and change these analysts before the research starts.Next, each analyst interviews an "expert" AI. This expert answers questions by searching the web and Wikipedia for real information. All these interviews happen at the same time to save time. Finally, the system takes all the gathered facts and conversations and combines them into a neat, well-written report for us. The notebook provides all the code needed to build this entire system, from creating the analysts to generating the final report.
+  Lesson 4(Research Assistant): This Lesson teaches us how to build a smart research assistant using a tool called LangGraph and we will use everything covered        till now to make this assistant. It works by creating a team of AI "analysts" who research a topic for us. First, we tell it what we want to research. Then,       it automatically creates different analyst characters, like a technology expert or a business person. We get to review and change these analysts before the        research starts.Next, each analyst interviews an "expert" AI. This expert answers questions by searching the web and Wikipedia for real information. All these     interviews happen at the same time to save time. Finally, the system takes all the gathered facts and conversations and combines them into a neat, well-           written report for us. The notebook provides all the code needed to build this entire system, from creating the analysts to generating the final report.
+     <img width="1448" height="968" alt="image" src="https://github.com/user-attachments/assets/4341c495-23ee-4c47-a546-20d248ede41e" />
+     <img width="1900" height="970" alt="image" src="https://github.com/user-attachments/assets/a3f51185-2139-4af2-a51c-8d64c9ff831f" />
+
+
+   Tweaking: I made several tweaks to customize the research assistant for my gaming topic. First, I changed the research topic to focus on AI in video games           instead of the original LangGraph topic. I increased the team size from 3 to 4 analysts and made interviews longer by adding an extra conversation turn. Most      importantly, I added an ethics researcher to examine how AI affects creative jobs in gaming and potential bias in AI-generated content.I also customized the       search queries to focus on gaming industry applications and made the final report more enthusiastic with bullet points. The system now tracks key findings         and uses gaming-specific prompts throughout. When I ran it, I got a great research report about AI transforming game development, with sections on new             storytelling tools, ethical considerations, and real gaming industry examples. The output showed how AI is revolutionizing both game creation and player           experiences while raising important questions about the future of creative jobs in gaming.
+     it gave a latency of around 35 seconds:
+      <img width="1287" height="123" alt="image" src="https://github.com/user-attachments/assets/b94fe4b0-6240-4066-9b8f-1c3604d37add" />
+     This was the report which it made on the game development assistant:
+      <img width="1906" height="979" alt="image" src="https://github.com/user-attachments/assets/b0fbb189-6de1-46bc-b090-e8d1938971fb" />
+     All ran in about 16-17 seconds so we can say that they all ran in parallel:
+      <img width="432" height="463" alt="image" src="https://github.com/user-attachments/assets/11beb0ba-4bf4-491a-abe7-5468f5127e93" />
+     This was showing in the studio when i asked some questions to it with amx agents 3:
+      <img width="1899" height="939" alt="image" src="https://github.com/user-attachments/assets/9d20e32b-f463-46b4-be7a-e991d9403a6d" />
+      <img width="1905" height="956" alt="image" src="https://github.com/user-attachments/assets/9408825b-321f-4cb5-8070-5b2829e25b4b" />
+     This was the graph in the studio:
+      <img width="825" height="720" alt="image" src="https://github.com/user-attachments/assets/2b1ad27d-830e-45f0-95f4-cd59f791ffae" />
+     This was the final conclusion it gave:
+      <img width="1911" height="962" alt="image" src="https://github.com/user-attachments/assets/16daa904-7c81-4aac-8a87-6e0dcbbbcb41" />
+
 
 
 
